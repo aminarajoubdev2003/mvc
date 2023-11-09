@@ -18,7 +18,7 @@ $request = $_SERVER['REQUEST_URI'];
  
 define('BASE_PATH', '/mvc/');
 
-
+echo "hello";
 $controller = new UserController($db);
 var_dump($request);
 switch ($request) {
